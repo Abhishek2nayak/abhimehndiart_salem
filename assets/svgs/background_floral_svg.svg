@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 736 1104" fill="none">
+  <defs>
+    <style>
+      .vine { fill:none; stroke:#607A63; stroke-width:2.1; stroke-linecap:round; stroke-linejoin:round; opacity:.72 }
+      .leaf { fill:#607A63; opacity:.92 }
+      .petal { fill:#607A63; opacity:.95 }
+      .detail { fill:none; stroke:#E9DFBB; stroke-width:1.6; stroke-linecap:round; opacity:.9 }
+      .dot { fill:#607A63; opacity:.72 }
+    </style>
+  </defs>
+
+  <!-- Main flowing vine -->
+  <path class="vine" d="M0 503 C54 452 84 417 91 355 C97 300 87 255 47 214"/>
+  <path class="vine" d="M67 429 C98 370 125 333 181 323 C235 313 268 331 282 287 C300 231 305 176 301 119"/>
+  <path class="vine" d="M84 430 C130 405 164 403 211 404 C278 406 331 401 381 366 C430 332 480 299 516 252"/>
+  <path class="vine" d="M205 404 C257 403 314 412 356 437 C390 457 432 468 472 447 C514 424 530 386 513 355"/>
+  <path class="vine" d="M247 403 C294 391 332 370 358 329 C378 298 386 269 390 246"/>
+  <path class="vine" d="M90 433 C133 467 178 483 213 513 C248 542 260 583 251 618"/>
+
+  <!-- Left upper flower -->
+  <g transform="translate(169 207)">
+    <path class="petal" d="M0 15 C-25 4 -29 -22 -22 -42 C-1 -36 11 -18 0 15Z"/>
+    <path class="petal" d="M-1 15 C-7 -16 2 -42 18 -56 C31 -34 27 -12 -1 15Z"/>
+    <path class="petal" d="M1 17 C18 -18 38 -37 55 -38 C57 -14 39 8 1 17Z"/>
+    <path class="petal" d="M2 18 C34 4 55 3 69 12 C56 29 31 33 2 18Z"/>
+    <path class="petal" d="M0 18 C25 26 40 39 43 52 C23 54 7 40 0 18Z"/>
+    <path class="petal" d="M-2 17 C-13 38 -27 44 -42 39 C-39 22 -25 11 -2 17Z"/>
+    <path class="detail" d="M0 14 C7 -4 12 -25 18 -48"/>
+    <path class="detail" d="M3 15 C22 1 38 -15 51 -31"/>
+    <path class="detail" d="M2 17 C28 14 46 17 61 19"/>
+    <path class="detail" d="M0 18 C15 28 25 37 31 47"/>
+    <path class="detail" d="M-1 16 C-13 27 -22 33 -32 34"/>
+  </g>
+
+  <!-- Top center lotus -->
+  <g transform="translate(302 139)">
+    <path class="petal" d="M0 16 C-18 1 -23 -17 -19 -32 C-3 -28 7 -12 0 16Z"/>
+    <path class="petal" d="M1 17 C-7 -13 -2 -36 10 -47 C23 -29 20 -7 1 17Z"/>
+    <path class="petal" d="M2 17 C14 -14 27 -31 41 -32 C43 -12 28 7 2 17Z"/>
+    <path class="petal" d="M1 18 C24 6 40 6 51 13 C41 28 23 29 1 18Z"/>
+    <path class="petal" d="M0 18 C17 22 27 31 29 41 C16 43 4 32 0 18Z"/>
+    <path class="petal" d="M-1 17 C-13 28 -24 30 -33 25 C-29 14 -18 9 -1 17Z"/>
+    <path class="detail" d="M0 15 C4 1 7 -17 10 -39"/>
+    <path class="detail" d="M2 16 C14 3 25 -10 35 -25"/>
+    <path class="detail" d="M1 18 C18 15 32 17 43 19"/>
+    <path class="detail" d="M0 18 C10 25 17 31 21 38"/>
+  </g>
+
+  <!-- Large right lotus -->
+  <g transform="translate(520 251)">
+    <path class="petal" d="M0 21 C-39 11 -59 -13 -62 -39 C-36 -40 -12 -25 0 21Z"/>
+    <path class="petal" d="M0 20 C-28 -15 -29 -48 -16 -70 C9 -54 15 -19 0 20Z"/>
+    <path class="petal" d="M1 20 C-4 -26 11 -61 31 -76 C48 -50 35 -17 1 20Z"/>
+    <path class="petal" d="M2 21 C23 -25 45 -47 66 -48 C66 -18 44 9 2 21Z"/>
+    <path class="petal" d="M3 22 C35 -2 61 -7 79 2 C69 27 41 33 3 22Z"/>
+    <path class="petal" d="M2 23 C33 24 53 35 60 49 C38 58 17 44 2 23Z"/>
+    <path class="petal" d="M0 23 C17 39 25 52 24 64 C6 62 -3 45 0 23Z"/>
+    <path class="petal" d="M-1 22 C-21 40 -42 44 -58 36 C-50 18 -31 13 -1 22Z"/>
+    <path class="detail" d="M0 20 C4 -8 9 -37 28 -64"/>
+    <path class="detail" d="M2 21 C20 -5 40 -25 57 -40"/>
+    <path class="detail" d="M3 22 C27 12 49 12 69 12"/>
+    <path class="detail" d="M2 23 C25 31 38 39 50 48"/>
+    <path class="detail" d="M0 22 C8 38 12 48 13 58"/>
+    <path class="detail" d="M-1 22 C-19 31 -35 35 -47 32"/>
+  </g>
+
+  <!-- Small flower -->
+  <g transform="translate(232 331)">
+    <path class="petal" d="M0 9 C-11 4 -14 -7 -12 -15 C-3 -13 3 -4 0 9Z"/>
+    <path class="petal" d="M1 9 C-2 -5 3 -16 10 -21 C16 -11 12 -1 1 9Z"/>
+    <path class="petal" d="M1 10 C8 -4 16 -11 24 -11 C24 -1 16 7 1 10Z"/>
+    <path class="petal" d="M1 10 C13 7 20 9 24 14 C18 20 9 18 1 10Z"/>
+    <path class="petal" d="M0 10 C7 15 10 21 9 26 C2 25 -2 18 0 10Z"/>
+    <path class="petal" d="M-1 10 C-7 18 -14 20 -19 17 C-17 10 -10 7 -1 10Z"/>
+    <path class="detail" d="M0 9 C4 1 7 -6 10 -15"/>
+  </g>
+
+  <!-- Hanging leaves -->
+  <path class="leaf" d="M47 207 C22 207 13 214 18 224 C28 226 40 220 47 207Z"/>
+  <path class="leaf" d="M72 278 C55 279 58 298 71 310 C82 299 82 287 72 278Z"/>
+  <path class="leaf" d="M159 273 C146 266 136 271 136 281 C146 286 155 283 159 273Z"/>
+  <path class="leaf" d="M390 244 C371 253 368 270 376 286 C392 279 401 262 390 244Z"/>
+  <path class="leaf" d="M345 414 C361 419 373 432 374 447 C355 447 342 436 345 414Z"/>
+  <path class="leaf" d="M503 488 C486 496 482 516 488 535 C506 529 518 510 503 488Z"/>
+
+  <!-- Lower hanging flower -->
+  <g transform="translate(230 605) rotate(10)">
+    <path class="petal" d="M0 0 C-18 -9 -28 -21 -27 -34 C-11 -33 -1 -20 0 0Z"/>
+    <path class="petal" d="M1 0 C-8 -25 -4 -43 7 -52 C20 -35 15 -15 1 0Z"/>
+    <path class="petal" d="M2 0 C9 -25 22 -39 35 -39 C37 -21 23 -6 2 0Z"/>
+    <path class="petal" d="M2 1 C23 -10 38 -10 48 -3 C40 13 21 13 2 1Z"/>
+    <path class="petal" d="M1 1 C17 12 22 24 20 34 C7 32 0 19 1 1Z"/>
+    <path class="petal" d="M0 1 C-8 18 -18 25 -28 21 C-28 9 -17 2 0 1Z"/>
+    <path class="detail" d="M0 0 C5 -13 8 -29 8 -45"/>
+    <path class="detail" d="M2 1 C16 -5 29 -12 39 -29"/>
+  </g>
+
+  <!-- Extra mehndi-inspired flourish: fine paisley vine on lower-right -->
+  <path class="vine" d="M558 610 C608 584 659 604 676 651 C691 692 675 731 638 742 C603 752 577 728 583 696 C589 665 620 654 642 669 C655 679 655 699 644 710" opacity=".5"/>
+  <path class="vine" d="M586 646 C600 625 616 617 637 616" opacity=".5"/>
+  <path class="leaf" d="M612 621 C601 605 604 592 616 586 C625 599 623 612 612 621Z" opacity=".62"/>
+  <path class="leaf" d="M666 650 C681 641 692 644 696 655 C684 663 673 661 666 650Z" opacity=".62"/>
+  <path class="leaf" d="M584 700 C570 692 562 696 558 707 C570 714 581 710 584 700Z" opacity=".62"/>
+  <circle class="dot" cx="648" cy="724" r="3"/>
+  <circle class="dot" cx="659" cy="716" r="2"/>
+  <circle class="dot" cx="668" cy="705" r="1.8"/>
+
+  <!-- Tiny decorative dots / buds for a mehndi feel -->
+  <circle class="dot" cx="109" cy="392" r="2.2"/>
+  <circle class="dot" cx="119" cy="382" r="1.7"/>
+  <circle class="dot" cx="128" cy="373" r="1.4"/>
+  <circle class="dot" cx="419" cy="365" r="2"/>
+  <circle class="dot" cx="430" cy="358" r="1.5"/>
+</svg>
