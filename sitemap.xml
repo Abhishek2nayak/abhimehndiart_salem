@@ -4,7 +4,7 @@
     <loc>https://abhimehndiart.example/index.html</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://abhimehndiart.example/about.html</loc>
@@ -16,7 +16,7 @@
     <loc>https://abhimehndiart.example/services.html</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://abhimehndiart.example/gallery.html</loc>
@@ -28,7 +28,7 @@
     <loc>https://abhimehndiart.example/blogs.html</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://abhimehndiart.example/contact.html</loc>
@@ -37,253 +37,49 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-alagapuram.html</loc>
+    <loc>https://abhimehndiart.example/franchises.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://abhimehndiart.example/franchises/bengaluru.html</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-ammapet.html</loc>
+    <loc>https://abhimehndiart.example/franchises/coimbatore.html</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-attur.html</loc>
+    <loc>https://abhimehndiart.example/franchises/dindigul.html</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-ayothiapattinam.html</loc>
+    <loc>https://abhimehndiart.example/franchises/kerala.html</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-bangalore-road.html</loc>
+    <loc>https://abhimehndiart.example/franchises/prayagraj.html</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-cherry-road.html</loc>
+    <loc>https://abhimehndiart.example/franchises/salem.html</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-dharmapuri.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-edappadi.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-fairlands.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-five-roads.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-four-roads.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-gugai.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-hasthampatti.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-jagir-ammapalayam.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-junction.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-kannankurichi.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-kolathur.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-kondalampatti.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-krishnagiri.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-magudanchavadi.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-mallur.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-maravaneri.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-mecheri.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-mettur.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-meyyanur.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-mullai-nagar.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-namakkal.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-narasothipatti.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-omalur-main-road.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-omalur.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-rasipuram.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-salem-new-bus-stand.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-salem.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-sankari.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-seelanaickenpatti.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-shevapet.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-suramangalam.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-swarnapuri.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-tiruchengode.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-valapady.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-veerapandi.html</loc>
-    <lastmod>2026-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://abhimehndiart.example/service-areas/best-mehandi-artist-in-yercaud.html</loc>
+    <loc>https://abhimehndiart.example/franchises/trichy.html</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
