@@ -57,17 +57,28 @@
     var prefersReduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if(prefersReduce) return;
 
-    // Hero entry animation
-    var heroText = document.querySelector(".hero [data-reveal]");
-    if(heroText){
-      gsap.from(".hero h1, .hero .hero-script, .hero .lede, .hero .hero-actions, .hero .hero-stats, .hero .hero-badges",{
-        y:32, opacity:0, duration:.9, stagger:.12, ease:"power3.out", clearProps:"all"
-      });
+    // Hero copy entrance (editorial fade-up)
+    var heroCopy = document.querySelector(".hero-copy");
+    if(heroCopy){
+      var copyTargets = heroCopy.querySelectorAll(".hero-kicker, h1, .hero-lede, .hero-features .feat, .hero-actions, .hero-signature");
+      if(copyTargets.length){
+        gsap.from(copyTargets,{
+          y:26, opacity:0, duration:.8, stagger:.09, ease:"power3.out", clearProps:"all"
+        });
+      }
     }
-    // Hero art gentle float
-    var heroArt = document.querySelector(".hero-art");
-    if(heroArt){
-      gsap.to(heroArt,{y:-14, duration:3.4, ease:"sine.inOut", yoyo:true, repeat:-1});
+    // Hero image entrance (main + overlay)
+    var heroWrap = document.querySelector(".hero-visual-wrap");
+    if(heroWrap){
+      var main = heroWrap.querySelector(".hv-main");
+      var overlay = heroWrap.querySelector(".hv-overlay");
+      var badge = heroWrap.querySelector(".hv-badge");
+      var play = heroWrap.querySelector(".hv-play");
+      var tl = gsap.timeline({defaults:{ease:"power3.out"}});
+      if(main)   tl.from(main,   {opacity:0, scale:.94, y:28, duration:1.05}, 0);
+      if(overlay)tl.from(overlay,{opacity:0, x:-40, y:20, scale:.9, duration:.9, ease:"back.out(1.4)"}, .35);
+      if(badge)  tl.from(badge,  {opacity:0, y:-10, duration:.6}, .7);
+      if(play)   tl.from(play,   {opacity:0, scale:0, duration:.6, ease:"back.out(2)"}, .85);
     }
     // Service card hover lift (GSAP-powered micro-interaction)
     document.querySelectorAll(".service-card").forEach(function(card){
