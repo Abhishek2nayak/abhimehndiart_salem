@@ -2,6 +2,33 @@
 (function(){
   "use strict";
 
+  /* ---------- page loader (mehndi mandala) ----------
+     hides once the page is fully loaded; guarantees a minimum on-screen
+     time so it doesn't flicker on fast connections, and force-hides after
+     a hard cap so a slow asset never leaves a stuck spinner. */
+  var loader = document.querySelector(".page-loader");
+  if(loader){
+    var shownAt = Date.now();
+    var MIN_MS = 700;      // give the animation a beat to be seen
+    var HARD_CAP_MS = 5000;
+    var hidden = false;
+    function hideLoader(){
+      if(hidden) return;
+      hidden = true;
+      var elapsed = Date.now() - shownAt;
+      var wait = Math.max(0, MIN_MS - elapsed);
+      setTimeout(function(){
+        loader.classList.add("is-hidden");
+        setTimeout(function(){
+          if(loader.parentNode) loader.parentNode.removeChild(loader);
+        }, 600);
+      }, wait);
+    }
+    if(document.readyState === "complete") hideLoader();
+    else window.addEventListener("load", hideLoader);
+    setTimeout(hideLoader, HARD_CAP_MS);
+  }
+
   /* ---------- mobile nav ---------- */
   var toggle = document.querySelector(".nav-toggle");
   var links = document.querySelector(".nav-links");
@@ -277,5 +304,22 @@
 
   /* ---------- current year in footer ---------- */
   document.querySelectorAll("[data-year]").forEach(function(el){ el.textContent = new Date().getFullYear(); });
+
+  /* ---------- rotating location text in hero ---------- */
+  document.querySelectorAll(".rotating-location[data-rotate]").forEach(function(el){
+    var list;
+    try { list = JSON.parse(el.getAttribute("data-rotate") || "[]"); }
+    catch(e){ list = []; }
+    if(!list.length) return;
+    var i = 0;
+    setInterval(function(){
+      el.classList.add("is-out");
+      setTimeout(function(){
+        i = (i + 1) % list.length;
+        el.textContent = list[i];
+        el.classList.remove("is-out");
+      }, 380);
+    }, 2600);
+  });
 
 })();
