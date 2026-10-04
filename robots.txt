@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://abhimehndiart.example/sitemap.xml
+Sitemap: https://abhimehndiartsalem.netlify.app/sitemap.xml
